@@ -1,8 +1,12 @@
 import './App.css';
+import Board from './components/Board';
+import Menu from './components/Menu';
 
 function App() {
   return (
-    <div className="App">APP
+    <div className="App">
+      <Menu />
+      <Board />
     </div>
   );
 }
