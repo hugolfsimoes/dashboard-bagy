@@ -1,4 +1,4 @@
-.QuadroFaturamento {
+.RevenuesBoard {
   border: solid #DDE2FF 1px;
   border-radius: 10px;
   margin-top: 2px;
@@ -19,27 +19,27 @@
   width: 750px;
   flex-wrap: wrap;
 }
-.container-titulo h3{
+.container-title h3{
   margin: 0;
 }
 
-.container-titulo p{
+.container-title p{
 color: #9FA2B4;
 font-size: 10px;
 font-weight: 700;
 }
 
-.container-legenda {
+.container-legend {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 300px;
 }
 
-.container-legenda div{
+.container-legend div{
   display: flex;
 } 
 
-.container-legenda img {
+.container-legend img {
   margin-right: 10px;
 }

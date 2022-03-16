@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
-export default function FaturamentoCards({ title, result }) {
+export default function RevenuesCard({ title, result }) {
   return (
-    <div className='FaturamentoCards'>
+    <div className='RevenuesCard'>
       <span>{title}</span>
       <p>{result}</p>
     </div>
