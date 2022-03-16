@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Lojas() {
+export default function Stores() {
   return (
     <div>Lojas</div>
   );
