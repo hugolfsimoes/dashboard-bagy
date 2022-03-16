@@ -1,5 +1,5 @@
 import './App.css';
-import Board from './components/Board';
+import BoardContent from './components/BoardContent';
 import Menu from './components/Menu';
 import { BrowserRouter } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Menu />
-        <Board />
+        <BoardContent />
       </BrowserRouter>
     </div>
   );

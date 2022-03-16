@@ -1,8 +1,8 @@
 import React from 'react';
 import Card from '../../components/Card';
-import QuadroFaturamento from '../../components/QuadroFaturamento';
+import RevenuesBoard from '../../components/RevenuesBoard';
 
-export default function VisaoGeral() {
+export default function Overview() {
   return (
     <div>
       <h2 className='title-page'>Visão Geral</h2>
@@ -12,7 +12,7 @@ export default function VisaoGeral() {
         <Card title="Loja destaque" result="Estilo Pri" />
         <Card title="Meta Mensal" result="110.000,00" />
       </div>
-      <QuadroFaturamento />
+      <RevenuesBoard />
     </div>
   );
 }

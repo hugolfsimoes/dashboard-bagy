@@ -23,22 +23,22 @@ export default function Menu() {
             <Link to="/"> <img className="icons" src={VisaoGeralIcon} alt="Ícone link visão geral" />Visão Geral</Link>
           </li>
           <li>
-            <Link to="/lojas"><img className="icons" src={LojasIcon} alt="Ícone link lojas" />Lojas</Link>
+            <Link to="/stores"><img className="icons" src={LojasIcon} alt="Ícone link lojas" />Lojas</Link>
           </li>
           <li>
-            <Link to="/vendas"><img className="icons" src={VendasIcon} alt="Ícone link vendas" />Vendas</Link>
+            <Link to="/sales"><img className="icons" src={VendasIcon} alt="Ícone link vendas" />Vendas</Link>
           </li>
           <li>
-            <Link to="/clientes"><img className="icons" src={ClientesIcon} alt="Ícone link clientes" />Clientes</Link>
+            <Link to="/customers"><img className="icons" src={ClientesIcon} alt="Ícone link clientes" />Clientes</Link>
           </li>
           <li>
-            <Link to="/produtos"><img className="icons" src={ProdutosIcon} alt="Ícone link produtos" />Produtos</Link>
+            <Link to="/products"><img className="icons" src={ProdutosIcon} alt="Ícone link produtos" />Produtos</Link>
           </li>
           <li>
-            <Link to="/planos-metas"><img className="icons" src={PlanosMetasIcon} alt="Ícone link planos e metas" />Planos e Metas</Link>
+            <Link to="/plans"><img className="icons" src={PlanosMetasIcon} alt="Ícone link planos e metas" />Planos e Metas</Link>
           </li>
           <li>
-            <Link to="/configuracoes"><img className="icons" src={ConfiguracoesIcon} alt="Ícone link configuracoes" />Configurações</Link>
+            <Link to="/settings"><img className="icons" src={ConfiguracoesIcon} alt="Ícone link configuracoes" />Configurações</Link>
           </li>
           <li>
             <Link to="/logout"><img className="icons" src={LogoutIcon} alt="Ícone link sair" />Sair</Link>
