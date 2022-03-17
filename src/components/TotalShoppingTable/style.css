@@ -1,0 +1,35 @@
+.TotalShoppingTable {
+  width: 100%;
+  padding: 15px;
+}
+
+.container-title-compras {
+  display: flex;
+  justify-content: space-between;
+}
+
+.TotalShoppingTable tr {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px;
+}
+.store-name {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+}
+
+.quantity-products {
+  padding: 0 50px;
+  color: #9FA2B4;
+}
+
+.price-total-product {
+  padding: 0 50px;
+  color: #9FA2B4;
+}
+hr {
+  background-color: #DDE2FF;
+  border: 0.1px solid #DDE2FF;
+  border-radius: 10px;
+  width: 96%;            
+}

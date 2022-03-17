@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from '../../components/Card';
-import PurchasesBoard from '../../components/PurchasesBoard';
+import ShoppingsBoard from '../../components/ShoppingsBoard';
 import RevenuesBoard from '../../components/RevenuesBoard';
 import './style.css';
 
@@ -15,7 +15,7 @@ export default function Overview() {
         <Card title="Meta Mensal" result="110.000,00" />
       </div>
       <RevenuesBoard />
-      <PurchasesBoard />
+      <ShoppingsBoard />
     </div>
   );
 }
