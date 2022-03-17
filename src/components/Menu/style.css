@@ -1,9 +1,9 @@
 .Menu {
   background-color: #363740;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   flex-basis: 255px;
-  height: 100vh;
 }
 
 .logo-bagy {

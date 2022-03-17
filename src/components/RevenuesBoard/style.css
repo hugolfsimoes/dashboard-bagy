@@ -6,11 +6,9 @@
   height: 546px;
   padding: 40px 0 20px 30px;
   display: flex;
+  justify-content: space-around;
 }
 
-.teste {
-  flex: 2;
-}
 
 .left-side {
   display: flex;
