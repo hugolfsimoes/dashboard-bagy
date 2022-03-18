@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import dataContext from '../../context/DataContext';
 import './style.css';
 
 export default function TotalShoppingTable() {
+  const { stores } = useContext(dataContext);
   return (
     <div className='TotalShoppingTable'>
       <div className='container-title-compras'>
@@ -13,29 +15,14 @@ export default function TotalShoppingTable() {
       </div>
       <table>
         <tbody>
-          <tr>
-            <td className='store-name'>Estilo Pri</td>
-            <td className='quantity-products'>250 compras</td>
-            <td className='price-total-product'>R$ 4238,00</td>
-          </tr>
-          <hr />
-          <tr>
-            <td className='store-name'>Vilma Calçados</td>
-            <td className='quantity-products'>187 compras</td>
-            <td className='price-total-product'>R$ 1005,00</td>
-          </tr>
-          <hr />
-          <tr>
-            <td className='store-name'>Mary Lingerie</td>
-            <td className='quantity-products'>124 compras</td>
-            <td className='price-total-product'>R$ 914,00</td>
-          </tr>
-          <hr />
-          <tr>
-            <td className='store-name'>Loja Belíssima</td>
-            <td className='quantity-products'>89 compras</td>
-            <td className='price-total-product'>R$ 281,00</td>
-          </tr>
+          {stores?.map((store) => {
+            return (
+              <tr key={store.id}>
+                <td className='store-name'>{store.nome}</td>
+                <td className='quantity-products'>{`R$ ${store.vendas} compras`}</td>
+                <td className='price-total-product'>{`R$ ${store.valorArrecadado.toFixed(2)}`}</td>
+              </tr>);
+          })}
         </tbody>
       </table>
     </div>

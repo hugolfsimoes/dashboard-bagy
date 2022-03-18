@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import Card from '../../components/Card';
 import ShoppingsBoard from '../../components/ShoppingsBoard';
 import RevenuesBoard from '../../components/RevenuesBoard';
+import dataContext from '../../context/DataContext';
 import './style.css';
 
 export default function Overview() {
+  const { stores } = useContext(dataContext);
+
+  console.log(stores);
   return (
     <div className='Overview'>
       <h2 className='title-page'>Visão Geral</h2>
