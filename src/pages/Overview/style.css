@@ -1,0 +1,14 @@
+.Overview {
+  width: 100%;
+  height: 100vh;
+}
+
+.title-page {
+  color: #252733;
+  margin-left: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+}

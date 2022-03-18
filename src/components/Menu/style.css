@@ -2,8 +2,10 @@
   background-color: #363740;
   display: flex;
   flex-direction: column;
-  flex-basis: 255px;
   height: 100vh;
+  position: fixed;
+  width: 255px;
+  z-index: 1;
 }
 
 .logo-bagy {

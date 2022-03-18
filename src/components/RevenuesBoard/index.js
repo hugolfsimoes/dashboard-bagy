@@ -25,12 +25,12 @@ export default function RevenuesBoard() {
         </div>
         <Chart />
       </div>
-      <div className='teste'>
-        <RevenuesCard title="Loja" result="Estilo Pri" />
-        <RevenuesCard title="Mês" result="Julho" />
-        <RevenuesCard title="Ano" result="2020" />
+      <div className='container-revenues-card'>
+        <RevenuesCard title="Loja" result="Estilo Pri" underline />
+        <RevenuesCard title="Mês" result="Julho" underline />
+        <RevenuesCard title="Ano" result="2020" underline />
         <RevenuesCard title="Total de faturamento" result="R$ 45.000,00" />
-        <RevenuesCard title="Análise comparativa" result="Positivo" />
+        <RevenuesCard title="Análise comparativa" result="Positivo" green />
       </div>
     </div>
   );
