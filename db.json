@@ -1,4 +1,14 @@
 {
+  "informacoesGerais": [
+    {
+      "id": 1,
+      "lojasTotais": 7213,
+      "faturamentoTotal": 100000.0,
+      "destaqueLoja": "Estilo Pri",
+      "metaMensal": 100000.0
+    }
+  ],
+
   "lojas": [
     {
       "id": 1,
