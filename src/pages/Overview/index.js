@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import Card from '../../components/Card';
 import ShoppingsBoard from '../../components/ShoppingsBoard';
 import RevenuesBoard from '../../components/RevenuesBoard';
@@ -6,6 +6,7 @@ import dataContext from '../../context/DataContext';
 import { formatNumbers } from '../../helper/functions';
 
 import './style.css';
+import Header from '../../components/Header';
 
 export default function Overview() {
   const { generalInformations } = useContext(dataContext);
@@ -13,7 +14,7 @@ export default function Overview() {
   const { lojasTotais, faturamentoTotal, destaqueLoja, metaMensal } = generalInformations;
   return (
     <div className='Overview' >
-      <h2 className='title-page'>Visão Geral</h2>
+      <Header title="Visão Geral" />
       <div className='card-container'>
         <Card title="Total de Lojas"
           result={lojasTotais} />

@@ -1,7 +1,9 @@
 import React from 'react';
+import Header from '../../components/Header';
 
 export default function Vendas() {
   return (
-    <div>Vendas</div>
+    <Header title="Vendas" />
+
   );
 }
