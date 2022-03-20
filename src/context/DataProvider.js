@@ -1,23 +1,37 @@
 import React, { useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
 import dataContext from './DataContext';
-import { getAllStores } from '../api';
+import { getAllStores, getAllgetGeneralInformations, getAllsales } from '../api';
 
 
 export default function DataProvider({ children }) {
   const [stores, setStores] = useState([]);
+  const [generalInformations, setGeneralInformations] = useState([]);
+  const [sales, setSales] = useState([]);
 
   useEffect(() => {
-    const getStoresRequest = async () => {
-      const { data } = await getAllStores();
-      setStores(data);
-    };
     getStoresRequest();
+    getGeneralInformations();
+    getSales();
   }, []);
+
+  const getStoresRequest = async () => {
+    const { data } = await getAllStores();
+    setStores(data);
+  };
+
+  const getGeneralInformations = async () => {
+    const { data } = await getAllgetGeneralInformations();
+    setGeneralInformations(data[0]);
+  };
+
+  const getSales = async () => {
+    const { data } = await getAllsales();
+    setSales(data);
+  };
 
   return (
     <main>
-      <dataContext.Provider value={{ stores }}>
+      <dataContext.Provider value={{ stores, generalInformations, sales }}>
         {children}
       </dataContext.Provider>
     </main>
