@@ -41,3 +41,53 @@ font-weight: 700;
 .container-legend img {
   margin-right: 10px;
 }
+.container-revenues-card {
+  border: 1px solid #DFE0EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 342px;
+}
+
+.RevenuesCard {
+  border-bottom: solid #DFE0EB 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 342px;
+  height: 100%;
+}
+
+.RevenuesCard span {
+  color: #9FA2B4;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.RevenuesCard select {
+  background-color: white;
+  border: none;
+  color: #252733;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.RevenuesCard p {
+  color: #252733;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.positive {
+  color: #219653;
+}
+
+.negative {
+  color: red;
+}
+

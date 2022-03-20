@@ -1,4 +1,20 @@
 import axios from 'axios';
 
-const url = 'http://localhost:3004/lojas';
-export const getAllStores = () => axios.get(url);
+const instance = axios.create({
+  baseURL: 'http://localhost:3004',
+});
+
+export const getAllStores = () => {
+  const result = instance.get('/lojas');
+  return result;
+};
+
+export const getAllgetGeneralInformations = () => {
+  const result = instance.get('/informacoesGerais');
+  return result;
+};
+
+export const getAllsales = () => {
+  const result = instance.get('/vendas');
+  return result;
+};
