@@ -1,5 +1,8 @@
 .TotalShoppingTable {
-  width: 100%;
+  border: #DFE0EB 1px solid;
+  border-radius: 10px;
+  margin-left: 15px;
+  width: 95%;
   padding: 15px;
 }
 
@@ -8,28 +11,41 @@
   justify-content: space-between;
 }
 
+.container-title-compras p{
+color: #2F80ED;
+font-weight: 600;
+}
+
+.container-title-compras span{
+color: #FC3C8D;
+font-weight: 600;
+text-decoration: underline;
+}
+
 .TotalShoppingTable tr {
+  border-bottom: #DFE0EB 1px solid;
   display: flex;
   justify-content: space-between;
   padding: 11px;
 }
 .store-name {
-  font-family: 'Mulish', sans-serif;
   font-weight: 600;
+  width: 120px;
 }
 
 .quantity-products {
   padding: 0 50px;
   color: #9FA2B4;
+  width: 120px;
 }
 
 .price-total-product {
   padding: 0 50px;
   color: #9FA2B4;
+  width: 120px;
 }
 hr {
   background-color: #DDE2FF;
   border: 0.1px solid #DDE2FF;
-  border-radius: 10px;
-  width: 96%;            
+  border-radius: 10px;      
 }

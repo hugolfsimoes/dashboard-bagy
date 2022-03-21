@@ -14,37 +14,19 @@
       "id": 1,
       "nome": "Estilo Pri",
       "vendas": 250,
-      "valorArrecadado": 4238.0,
-      "produto": {
-        "id": 23,
-        "produtoNome": "Brincos",
-        "preco": 29.9,
-        "data": "17/07/20"
-      }
+      "valorArrecadado": 4238.0
     },
     {
       "id": 2,
       "nome": "Vilma Calçados",
       "vendas": 187,
-      "valorArrecadado": 1005.0,
-      "produto": {
-        "id": 54,
-        "produtoNome": "Sandália",
-        "preco": 89.9,
-        "data": "17/07/20"
-      }
+      "valorArrecadado": 1005.0
     },
     {
       "id": 3,
       "nome": "Mary Lingerie",
       "vendas": 124,
-      "valorArrecadado": 914.0,
-      "produto": {
-        "id": 95,
-        "produtoNome": "Conjunto",
-        "preco": 49.9,
-        "data": "17/07/20"
-      }
+      "valorArrecadado": 914.0
     }
   ],
 
@@ -72,6 +54,29 @@
       "loja_id": 1,
       "data": "01/07/2020",
       "valor": 100.0
+    }
+  ],
+  "produtos": [
+    {
+      "id": 23,
+      "store_id": 1,
+      "produtoNome": "Brincos",
+      "preco": 29.9,
+      "data": "17/07/20"
+    },
+    {
+      "id": 54,
+      "produtoNome": "Sandália",
+      "store_id": 2,
+      "preco": 89.9,
+      "data": "17/07/20"
+    },
+    {
+      "id": 95,
+      "produtoNome": "Conjunto",
+      "store_id": 3,
+      "preco": 49.9,
+      "data": "17/07/20"
     }
   ]
 }

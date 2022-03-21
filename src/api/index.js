@@ -18,3 +18,8 @@ export const getAllsales = () => {
   const result = instance.get('/vendas');
   return result;
 };
+
+export const getAllProducts = () => {
+  const result = instance.get('/produtos');
+  return result;
+};
