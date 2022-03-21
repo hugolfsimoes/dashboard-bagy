@@ -3,8 +3,7 @@
 # Contexto
 
 Desafio técnico frontend da Bagy, onde deveria ser implementado um dashboard em ReactJs(sem utilização de bibliotecas de componentes, apenas para componentes gáficos) de visualização de dados.
-O layout para implementação está no [Figma](https://www.figma.com/file/fTxV4ZLMNlHtuy675J5TAj/Dashboard-Bagy-2020?node-i
-d=0%3A1)
+O layout para implementação está no [Figma](https://www.figma.com/file/fTxV4ZLMNlHtuy675J5TAj/Dashboard-Bagy-2020?node-id=0%3A1)
 
 ## Técnologias usadas
 
